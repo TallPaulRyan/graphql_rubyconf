@@ -56,3 +56,17 @@ mutation {
   }
 }
 ```
+
+```
+mutation {
+  updateAuthor( 
+    input: {
+    	name:"Taller Paul"
+			id:3
+    }) {
+    author {
+      name
+      id
+    } errors
+  }
+```
